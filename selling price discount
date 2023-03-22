@@ -1,0 +1,5 @@
+selling_price=2000
+disc=float(input('Enter discount:'))
+
+if  selling_price==2000:
+  print("The After Discount Value for Customer is",selling_price - selling_price*disc/100)
